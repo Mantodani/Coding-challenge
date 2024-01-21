@@ -1,0 +1,87 @@
+body {
+    background-size: cover;
+    background-image:url(sfondo.jpg) 
+}
+
+.container {
+    padding: 50px;
+    background-color: rgba(32, 34, 34, 0.6);
+    border-radius: 1%;
+    width: 900px;
+    height: 600px;
+    margin-top: 2%;
+    margin-left: 23%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+.intestazione {
+    color: rgb(34, 228, 13); 
+    text-align: center;
+}
+
+nav {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.user-interface {
+    width: 800px;
+    height: 40px;
+    background-color: rgb(34, 228, 13);
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+main{
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.monopattino{
+    display: flex;
+    align-items: center;
+}
+
+div > span {
+    font-size: small;
+}
+
+.caricaresidua1 {
+    border-radius: 3px;
+    display: inline-block;
+    background-color: rgb(236, 173, 56);
+    width: 35%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.caricaresidua2 {
+    border-radius: 3px;
+    display: inline-block;
+    background-color:rgb(32, 203, 13);
+    width: 55%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.caricaresidua3 {
+    border-radius: 3px;
+    display: inline-block;
+    background-color: rgb(234, 98, 44);
+    width: 15%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+
